@@ -18,7 +18,7 @@ services:
       - 5432:5432
 
   pgadmin:
-    image: dpage/pgadmin4:6.21
+    image: dpage/pgadmin4:8.1
     container_name: dev-pgadmin
     depends_on:
       - postgres
